@@ -1,0 +1,27 @@
+INSERT INTO household (id, eircode, number_of_occupants, max_number_of_occupants, owner_occupied) VALUES
+                                                                                                      (1, 'D02XY45', 3, 5, 1),
+                                                                                                      (2, 'A94B6F3', 4, 6, 0),
+                                                                                                      (3, 'T12AB34', 2, 4, 1),
+                                                                                                      (4, 'C15DE67', 5, 7, 1),
+                                                                                                      (5, 'F12GH89', 1, 2, 0),
+                                                                                                      (6, 'B78IJ01', 3, 5, 1),
+                                                                                                      (7, 'M34KL56', 4, 6, 0),
+                                                                                                      (8, 'P90QR78', 2, 4, 1),
+                                                                                                      (9, 'V23ST01', 5, 7, 1),
+                                                                                                      (10, 'X45UV67', 1, 2, 0),
+                                                                                                      (11, 'Y67WX89', 3, 5, 1),
+                                                                                                      (12, 'Z01YZ23', 4, 6, 0),
+                                                                                                      (13, 'Q45AB78', 2, 4, 1),
+                                                                                                      (14, 'R67CD01', 5, 7, 1),
+                                                                                                      (15, 'S23EF45', 1, 2, 0);
+INSERT INTO pets (name, animal_type, breed, age, household_id) VALUES
+                                                                   ('Buddy', 'Dog', 'Golden Retriever', 3, 1),
+                                                                   ('Mittens', 'Cat', 'Siamese', 2, 2),
+                                                                   ('Charlie', 'Dog', 'Beagle', 4, 3),
+                                                                   ('Whiskers', 'Cat', 'Persian', 5, 4),
+                                                                   ('Coco', 'Rabbit', 'Holland Lop', 1, 5),
+                                                                   ('Goldie', 'Fish', 'Goldfish', 1, 6),
+                                                                   ('Polly', 'Bird', 'Parakeet', 2, 7),
+                                                                   ('Max', 'Dog', 'German Shepherd', 5, 8),
+                                                                   ('Luna', 'Cat', 'Maine Coon', 3, 9),
+                                                                   ('Nibbles', 'Hamster', 'Syrian Hamster', 1, 10);
